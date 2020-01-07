@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "npx tsc index.ts"
   },
   "keywords": [],
   "author": "",
@@ -13,6 +13,7 @@
     "typescript": "^3.7.4"
   },
   "dependencies": {
+    "@types/node": "^13.1.4",
     "ts-essentials": "^4.0.0"
   }
 }

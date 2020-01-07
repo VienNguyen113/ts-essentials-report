@@ -1,5 +1,6 @@
 {
   "compilerOptions": {
-    "lib": ["ES2015"]
+    "lib": ["DOM", "ESNext"],
+    "target": "es5"
   }
 }
